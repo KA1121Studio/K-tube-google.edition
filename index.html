@@ -387,7 +387,7 @@
   <!-- ===== HEADER ===== -->
   <header class="header">
     <a href="https://about.google/?fg=1">Googleについて</a>
-    <a href="https://store.google.com/JP?hl=ja-JP">ストア</a>
+    <a href=":https://store.google.com/JP?hl=ja-JP">ストア</a>
     <span class="spacer"></span>
     <a href="https://mail.google.com/mail/">Gmail</a>
     <a href="https://www.google.com/imghp?hl=ja">画像</a>
@@ -524,9 +524,8 @@
       function showKtube() {
         mainContent.classList.add('hide');
         ktubeContainer.classList.add('active');
-        ktubeIframe.src = 'https://k-tube.duckdns.org/';
+        ktubeIframe.src = 'https://k-tube-pro.vercel.app';
       }
-
       function closeKtube() {
         ktubeContainer.classList.remove('active');
         mainContent.classList.remove('hide');
